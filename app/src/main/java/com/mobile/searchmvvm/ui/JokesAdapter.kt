@@ -1,4 +1,4 @@
-package com.mobile.searchmvvm
+package com.mobile.searchmvvm.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

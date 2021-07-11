@@ -1,4 +1,4 @@
-package com.mobile.searchmvvm
+package com.mobile.searchmvvm.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -30,6 +30,10 @@ class MainActivity : AppCompatActivity() {
         _binding.apply {
             editSearchQuery.doAfterTextChanged {
                 searchQuery = editSearchQuery.text.toString()
+            }
+
+            swipeRefresh.setOnRefreshListener {
+                _viewModel.onEvent(MainViewModel.Event.OnRefresh)
             }
 
             btnSearchQuery.setOnClickListener {

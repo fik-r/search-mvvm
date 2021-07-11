@@ -1,6 +1,6 @@
 package com.mobile.searchmvvm.di
 
-import com.mobile.searchmvvm.MainViewModel
+import com.mobile.searchmvvm.ui.MainViewModel
 import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
