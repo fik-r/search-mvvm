@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">search-mvvm</string>
+    <string name="text_search">Cari</string>
+</resources>
